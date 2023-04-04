@@ -8,8 +8,13 @@
 import SwiftUI
 
 struct StudentsDetail: View {
+
     @EnvironmentObject var modelData: ModelData
     var student: Student
+    
+    var students: [Student] {
+        modelData.students
+    }
     
     var landmarkIndex: Int {
         modelData.students.firstIndex(where: { $0.id == student.id})!
@@ -28,7 +33,7 @@ struct StudentsDetail: View {
                         .font(.title)
                 }
                 
-
+                
                 HStack {
                     Text(student.park)
                     Spacer()
@@ -36,10 +41,12 @@ struct StudentsDetail: View {
                 }
                 .font(.subheadline)
                 .foregroundColor(.secondary)
-
+                
                 Divider()
+                
             }
               .padding()
+            TabViewController()
 
               Spacer()
           }
@@ -48,6 +55,7 @@ struct StudentsDetail: View {
         
     }
 }
+
 
 struct StudentsDetail_Previews: PreviewProvider {
     static let modelData = ModelData()
