@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12012CA629DC6B9C008E2DB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12012CA529DC6B9C008E2DB5 /* Assets.xcassets */; };
 		127FBE1C29C5563300CBE16A /* piedPiperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127FBE1B29C5563300CBE16A /* piedPiperApp.swift */; };
 		127FBE2329C5563500CBE16A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 127FBE2229C5563500CBE16A /* Preview Assets.xcassets */; };
 		127FBE5129C556DC00CBE16A /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127FBE2A29C556DC00CBE16A /* Profile.swift */; };
@@ -26,7 +27,6 @@
 		127FBE6C29C556DC00CBE16A /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127FBE4D29C556DC00CBE16A /* BadgeBackground.swift */; };
 		127FBE6D29C556DC00CBE16A /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127FBE4E29C556DC00CBE16A /* Badge.swift */; };
 		127FBE6E29C556DC00CBE16A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 127FBE5029C556DC00CBE16A /* Preview Assets.xcassets */; };
-		127FBE7029C5579400CBE16A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 127FBE6F29C5579400CBE16A /* Assets.xcassets */; };
 		12946A3329CA20FD004758E5 /* StudentsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12946A3229CA20FD004758E5 /* StudentsList.swift */; };
 		12946A3529CA2108004758E5 /* StudentsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12946A3429CA2108004758E5 /* StudentsRow.swift */; };
 		12946A3729CA2116004758E5 /* StudentsDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12946A3629CA2116004758E5 /* StudentsDetail.swift */; };
@@ -35,6 +35,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12012CA529DC6B9C008E2DB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		127FBE1829C5563300CBE16A /* piedPiper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = piedPiper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		127FBE1B29C5563300CBE16A /* piedPiperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = piedPiperApp.swift; sourceTree = "<group>"; };
 		127FBE2229C5563500CBE16A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -55,7 +56,6 @@
 		127FBE4D29C556DC00CBE16A /* BadgeBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
 		127FBE4E29C556DC00CBE16A /* Badge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 		127FBE5029C556DC00CBE16A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		127FBE6F29C5579400CBE16A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../studies/Swift/landmarks-swift/landmarks-swift/Assets.xcassets"; sourceTree = "<group>"; };
 		12946A3229CA20FD004758E5 /* StudentsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsList.swift; sourceTree = "<group>"; };
 		12946A3429CA2108004758E5 /* StudentsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsRow.swift; sourceTree = "<group>"; };
 		12946A3629CA2116004758E5 /* StudentsDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsDetail.swift; sourceTree = "<group>"; };
@@ -93,9 +93,9 @@
 		127FBE1A29C5563300CBE16A /* piedPiper */ = {
 			isa = PBXGroup;
 			children = (
+				12012CA529DC6B9C008E2DB5 /* Assets.xcassets */,
 				127FBE1B29C5563300CBE16A /* piedPiperApp.swift */,
 				127FBE2929C556DB00CBE16A /* Model */,
-				127FBE6F29C5579400CBE16A /* Assets.xcassets */,
 				127FBE4F29C556DC00CBE16A /* Preview Content */,
 				127FBE2D29C556DC00CBE16A /* Resources */,
 				127FBE3029C556DC00CBE16A /* Views */,
@@ -255,8 +255,8 @@
 			files = (
 				127FBE2329C5563500CBE16A /* Preview Assets.xcassets in Resources */,
 				127FBE5529C556DC00CBE16A /* landmarkData.json in Resources */,
+				12012CA629DC6B9C008E2DB5 /* Assets.xcassets in Resources */,
 				127FBE6E29C556DC00CBE16A /* Preview Assets.xcassets in Resources */,
-				127FBE7029C5579400CBE16A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
