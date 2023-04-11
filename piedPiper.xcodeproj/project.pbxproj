@@ -31,6 +31,7 @@
 		12946A3529CA2108004758E5 /* StudentsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12946A3429CA2108004758E5 /* StudentsRow.swift */; };
 		12946A3729CA2116004758E5 /* StudentsDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12946A3629CA2116004758E5 /* StudentsDetail.swift */; };
 		12946A3929CA229B004758E5 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12946A3829CA229B004758E5 /* Student.swift */; };
+		12FD568C29E5A884003C9C3A /* StudentItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FD568B29E5A884003C9C3A /* StudentItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,7 @@
 		12946A3429CA2108004758E5 /* StudentsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsRow.swift; sourceTree = "<group>"; };
 		12946A3629CA2116004758E5 /* StudentsDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsDetail.swift; sourceTree = "<group>"; };
 		12946A3829CA229B004758E5 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		12FD568B29E5A884003C9C3A /* StudentItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +190,7 @@
 				12946A3229CA20FD004758E5 /* StudentsList.swift */,
 				12946A3429CA2108004758E5 /* StudentsRow.swift */,
 				12946A3629CA2116004758E5 /* StudentsDetail.swift */,
+				12FD568B29E5A884003C9C3A /* StudentItem.swift */,
 			);
 			path = Students;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				127FBE6729C556DC00CBE16A /* CircleImage.swift in Sources */,
 				127FBE6D29C556DC00CBE16A /* Badge.swift in Sources */,
 				127FBE6B29C556DC00CBE16A /* BadgeSymbol.swift in Sources */,
+				12FD568C29E5A884003C9C3A /* StudentItem.swift in Sources */,
 				127FBE5229C556DC00CBE16A /* ModelData.swift in Sources */,
 				127FBE6029C556DC00CBE16A /* ProfileEditor.swift in Sources */,
 				127FBE5129C556DC00CBE16A /* Profile.swift in Sources */,

@@ -20,13 +20,13 @@ struct StudentsList: View {
             List {
                 ForEach(students) { student in
                     NavigationLink {
-                        StudentsDetail(student: student)
+                        StudentItem(student: student)
                     } label: {
                         StudentsRow(student: student)
                     }
                 }
             }
-            .navigationBarTitle("Pied Piper", displayMode: .inline)
+            .navigationBarTitle("Pied Piper")
         }
     }
 }

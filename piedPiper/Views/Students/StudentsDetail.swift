@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct StudentsDetail: View {
-
+    
     @EnvironmentObject var modelData: ModelData
     var student: Student
     
@@ -21,45 +21,41 @@ struct StudentsDetail: View {
     }
     
     var body: some View {
-        ScrollView {
-            Spacer()
-            CircleImage(image: student.image)
-                  .offset()
-                  .padding(.bottom)
-
-            VStack(alignment: .leading) {
-                HStack{
-                    Text(student.name)
-                        .font(.title)
+            ScrollView {
+                Spacer()
+                CircleImage(image: student.image)
+                    .offset()
+                    .padding(.bottom)
+                
+                VStack(alignment: .leading) {
+                    HStack{
+                        Text(student.name)
+                            .font(.title)
+                    }
+                    
+                    
+                    HStack {
+                        Text(student.park)
+                        Spacer()
+                        Text(student.state)
+                    }
+                    .font(.subheadline)
+                    .foregroundColor(.secondary)
+                    
                 }
+                .padding()
                 
-                
-                HStack {
-                    Text(student.park)
-                    Spacer()
-                    Text(student.state)
-                }
-                .font(.subheadline)
-                .foregroundColor(.secondary)
-                
-                
+                Spacer()
             }
-              .padding()
-
-              Spacer()
-          }
-        .navigationTitle(student.name)
-        .navigationBarTitleDisplayMode(.inline)
-        
     }
-}
-
-
-struct StudentsDetail_Previews: PreviewProvider {
-    static let modelData = ModelData()
-
-    static var previews: some View {
-        StudentsDetail(student: modelData.students[0])
-            .environmentObject(modelData)
+    
+    
+    struct StudentsDetail_Previews: PreviewProvider {
+        static let modelData = ModelData()
+        
+        static var previews: some View {
+            StudentsDetail(student: modelData.students[0])
+                .environmentObject(modelData)
+        }
     }
 }
