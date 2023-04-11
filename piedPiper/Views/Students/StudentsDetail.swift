@@ -42,11 +42,9 @@ struct StudentsDetail: View {
                 .font(.subheadline)
                 .foregroundColor(.secondary)
                 
-                Divider()
                 
             }
               .padding()
-            TabViewController()
 
               Spacer()
           }

@@ -31,7 +31,6 @@
 		12946A3529CA2108004758E5 /* StudentsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12946A3429CA2108004758E5 /* StudentsRow.swift */; };
 		12946A3729CA2116004758E5 /* StudentsDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12946A3629CA2116004758E5 /* StudentsDetail.swift */; };
 		12946A3929CA229B004758E5 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12946A3829CA229B004758E5 /* Student.swift */; };
-		12D2443829D5F34600F1C34E /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D2443729D5F34600F1C34E /* TabViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,7 +59,6 @@
 		12946A3429CA2108004758E5 /* StudentsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsRow.swift; sourceTree = "<group>"; };
 		12946A3629CA2116004758E5 /* StudentsDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsDetail.swift; sourceTree = "<group>"; };
 		12946A3829CA229B004758E5 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
-		12D2443729D5F34600F1C34E /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,7 +188,6 @@
 				12946A3229CA20FD004758E5 /* StudentsList.swift */,
 				12946A3429CA2108004758E5 /* StudentsRow.swift */,
 				12946A3629CA2116004758E5 /* StudentsDetail.swift */,
-				12D2443729D5F34600F1C34E /* TabViewController.swift */,
 			);
 			path = Students;
 			sourceTree = "<group>";
@@ -279,7 +276,6 @@
 				127FBE5229C556DC00CBE16A /* ModelData.swift in Sources */,
 				127FBE6029C556DC00CBE16A /* ProfileEditor.swift in Sources */,
 				127FBE5129C556DC00CBE16A /* Profile.swift in Sources */,
-				12D2443829D5F34600F1C34E /* TabViewController.swift in Sources */,
 				127FBE1C29C5563300CBE16A /* piedPiperApp.swift in Sources */,
 				127FBE6C29C556DC00CBE16A /* BadgeBackground.swift in Sources */,
 				12946A3529CA2108004758E5 /* StudentsRow.swift in Sources */,
