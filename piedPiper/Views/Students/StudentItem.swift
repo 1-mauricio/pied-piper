@@ -26,22 +26,21 @@ struct StudentItem: View {
                     Label("Student", systemImage: "star")
                 }
             
-            Text("test")
+            StudentsGoals(student: student)
                 .tabItem{
                     Label("Goals", systemImage: "star")
                 }
             
-            Text("test")
+            StudentsComments(student: student)
+
                 .tabItem{
                     Label("Comments", systemImage: "star")
                 }
 
-            Text("test")
+            StudentsFeedbacks(student: student)
                 .tabItem{
                     Label("Feedbacks", systemImage: "star")
                 }
-
-
         }
     }
 }

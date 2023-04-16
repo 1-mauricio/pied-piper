@@ -21,34 +21,45 @@ struct StudentsDetail: View {
     }
     
     var body: some View {
-            ScrollView {
-                Spacer()
+        ScrollView {
+            VStack {
                 CircleImage(image: student.image)
-                    .offset()
-                    .padding(.bottom)
+                    .padding(.vertical, 16)
+                    .padding(.bottom, 8)
                 
                 VStack(alignment: .leading) {
                     HStack{
                         Text(student.name)
                             .font(.title)
+                            .foregroundColor(.primary)
                     }
                     
-                    
-                    HStack {
+                    VStack(alignment: .leading) {
                         Text(student.park)
-                        Spacer()
+                            .font(.subheadline)
                         Text(student.state)
+                            .font(.subheadline)
                     }
-                    .font(.subheadline)
                     .foregroundColor(.secondary)
                     
+                    Divider()
+                    
+                    Text("About \(student.name)")
+                        .font(.title2)
+                        .foregroundColor(.primary)
+                    
+                    Text(student.description)
+                        .font(.body)
+                        .foregroundColor(.secondary)
                 }
                 .padding()
-                
-                Spacer()
             }
+        }
+        .navigationTitle(student.name)
+        .navigationBarTitleDisplayMode(.inline)
     }
-    
+}
+
     
     struct StudentsDetail_Previews: PreviewProvider {
         static let modelData = ModelData()
@@ -58,4 +69,4 @@ struct StudentsDetail: View {
                 .environmentObject(modelData)
         }
     }
-}
+
