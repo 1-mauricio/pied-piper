@@ -23,24 +23,25 @@ struct StudentItem: View {
         TabView {
             StudentsDetail(student: student)
                 .tabItem{
-                    Label("Student", systemImage: "star")
+                    Label("Student", systemImage: "graduationcap")
                 }
             
             StudentsGoals(student: student)
                 .tabItem{
-                    Label("Goals", systemImage: "star")
+                    Label("Goals", systemImage: "figure.run")
                 }
             
             StudentsComments(student: student)
 
                 .tabItem{
-                    Label("Comments", systemImage: "star")
+                    Label("Comments", systemImage: "message")
                 }
 
             StudentsFeedbacks(student: student)
                 .tabItem{
                     Label("Feedbacks", systemImage: "star")
                 }
+            
         }
     }
 }

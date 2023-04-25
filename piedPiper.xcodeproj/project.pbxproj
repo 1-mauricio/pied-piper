@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		12012CA629DC6B9C008E2DB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12012CA529DC6B9C008E2DB5 /* Assets.xcassets */; };
+		120ACD4A29F8113800227951 /* CommentDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120ACD4929F8113800227951 /* CommentDetail.swift */; };
 		1245F3CA29E8F8D800746443 /* StudentsGoals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1245F3C929E8F8D800746443 /* StudentsGoals.swift */; };
 		124F35B729EC5E10001ED6ED /* StudentsComments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124F35B629EC5E10001ED6ED /* StudentsComments.swift */; };
 		124F35B929EC5E22001ED6ED /* StudentsFeedbacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124F35B829EC5E22001ED6ED /* StudentsFeedbacks.swift */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		12012CA529DC6B9C008E2DB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		120ACD4929F8113800227951 /* CommentDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentDetail.swift; sourceTree = "<group>"; };
 		1245F3C929E8F8D800746443 /* StudentsGoals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsGoals.swift; sourceTree = "<group>"; };
 		124F35B629EC5E10001ED6ED /* StudentsComments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsComments.swift; sourceTree = "<group>"; };
 		124F35B829EC5E22001ED6ED /* StudentsFeedbacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsFeedbacks.swift; sourceTree = "<group>"; };
@@ -200,6 +202,7 @@
 				124F35B829EC5E22001ED6ED /* StudentsFeedbacks.swift */,
 				124F35B629EC5E10001ED6ED /* StudentsComments.swift */,
 				1245F3C929E8F8D800746443 /* StudentsGoals.swift */,
+				120ACD4929F8113800227951 /* CommentDetail.swift */,
 			);
 			path = Students;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 				12946A3729CA2116004758E5 /* StudentsDetail.swift in Sources */,
 				127FBE6529C556DC00CBE16A /* ContentView.swift in Sources */,
 				127FBE6829C556DC00CBE16A /* FavoriteButton.swift in Sources */,
+				120ACD4A29F8113800227951 /* CommentDetail.swift in Sources */,
 				127FBE6629C556DC00CBE16A /* MapView.swift in Sources */,
 				127FBE5F29C556DC00CBE16A /* ProfileSummary.swift in Sources */,
 				127FBE6729C556DC00CBE16A /* CircleImage.swift in Sources */,
